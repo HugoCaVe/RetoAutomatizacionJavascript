@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<form id="form" action="" class="form">
+ <h2 class="tag">Oriéntate para realizar tu inversión<span></span></h2>
+  <div>
+   <label for="name">Nombre Completo <samp>*</samp></label>
+   <input name="name" required type="text" id="name" placeholder=""><br />
+  </div>
+  <br> 
+ <div>
+  <label for="typeDocument">Seleccione el tipo de documento <samp>*</samp></label>
+</div>
+ <select id="documentType">
+    <option value="CC">Cédula de ciudadanía</option>
+    <option value="CE">Cédula de extranjería</option>
+    <option value="PST">Pasaporte</option>
+    <option value="PEP">Permisos especial de permanencia</option>
+    <option value="RC">Registro civil</option>
+    <option value="TDI">Tarjeta de identidad</option>
+ </select>
+<br> 
+<br> 
+<div>
+  <label for="amount">Monto que desea invertir ($) <samp>*</samp></label>
+  <input name="amount" required type="number" id="amount" placeholder=""><br />
+</div>
+<button type="submit" class="btn primary full">Validar</button>
+</form>
+<div id="error"></div>
+<script src="script.js"></script>
+</body>
+</html>
