@@ -1,5 +1,5 @@
-#RetoAutomatizacionJavascript
-Reto de automatización de back (Tyba)
+## RetoAutomatizacionJavascript
+Reto de automatización simulador de inversiones (Tyba)
 
 ## Introducción 🚀
 Validar las diferentes alternativas que tiene un usuario para invertir según su presupuesto, restringiendo a cierto tipo de documentos.
@@ -7,6 +7,7 @@ Validar las diferentes alternativas que tiene un usuario para invertir según su
 ## Prerequisitos para la ejecución 📋
 Instalar Visual Studio Code (updated version). 
 Descargar la siguientes extensiones: Live Server v5.7.9 (Para emular el localhost para ejecutar javascript), Prettier - Code formatter v9.10.4 (opcional). 
+Google Chrome.
 
 ## Instalación 🔧
 Para clonar este proyecto, se debe descargar y guardar localmente del siguiente repositorio de git: (https://github.com/HugoCaVe/RetoAutomatizacionJavascript.git)
