@@ -15,8 +15,8 @@ Para clonar este proyecto, se debe descargar y guardar localmente del siguiente 
 ## Comando para la ejecución 💻
 Para ejecutar el programa, se debe abrir el proyecto desde Visual Studio Code y en el archivo index.html se le debe dar click derecho y seleccionar "Open with Live Server", ingresar los datos que solicita el formulario y jugar con las opciones.
 
-##Construido con 🛠
+## Construido con 🛠
 html - Javascript - CSS
 
-##Autor 👨
+## Autor 👨
 Hugo Cardenas - hugolp8@gmail.com
