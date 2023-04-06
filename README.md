@@ -1,26 +1,27 @@
-RetoAutomatizacionJavascript
+#RetoAutomatizacionJavascript
 Reto de automatización de back (Tyba)
 
-Introducción 🚀
+## Introducción 🚀
 Validar las diferentes alternativas que tiene un usuario para invertir según su presupuesto, restringiendo a cierto tipo de documentos.
 
-Prerequisitos para la ejecución 📋
-Java version 1.8, update 361 or higher and JDK (set of environment variables). IntelliJ IDEA (version 2023 or higher). Gradle version 7.3 or higher (set of environment variables). Cucumber for Java Plugin (updated version). Gherkin plugin (updated version).
+## Prerequisitos para la ejecución 📋
+Instalar Visual Studio Code (updated version). 
+Descargar la siguientes extensiones: Live Server v5.7.9 (Para emular el localhost para ejecutar javascript), Prettier - Code formatter v9.10.4 (opcional). 
 
-Instalación 🔧
-Para clonar este repositorio localmente, se debe ejecutar el siguiente comando: git clone https://github.com/HugoCaVe/bddretoback IntelliJ IDE bajo la estructura de un proyecto Gradle existente. Configurar la librería del sistema JRE con JavaSE-1.8.
+## Instalación 🔧
+Para clonar este repositorio localmente, se debe descargar localmente del siguiente repositorio: git clone https://github.com/HugoCaVe/bddretoback IntelliJ IDE bajo la estructura de un proyecto Gradle existente. Configurar la librería del sistema JRE con JavaSE-1.8.
 
-Compilar el proyecto 🔨
+## Compilar el proyecto 🔨
 Para construir el proyecto se debe ejecutar el comando: gradle clean build -x test
 
-Comando para la ejecución 💻
+## Comando para la ejecución 💻
 El proyecto se puede ejecutar desde la consola con el siguiente comando: gradle clean test aggregate
 
-Construido con 🛠
+##Construido con 🛠
 BDD - Development strategy Screenplay Gradle - Dependency manager Cucumber - Framework to automate BDD tests Serenity BDD - Open source library for report generation Gherkin - Business Readable DSL Language (Business-readable domain specific language)
 
-Versionamiento 📌
+##Versionamiento 📌
 Se utilizó Git para el control de versiones, aplicando TBD 🔀
 
-Autor 👨
+##Autor 👨
 Hugo Cardenas - hugolp8@gmail.com
